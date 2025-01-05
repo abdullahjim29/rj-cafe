@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="w-11/12 mx-auto">
+    <div className="w-11/12 mx-auto mt-2">
       {/* navbar start */}
       <nav>
         <div className="navbar bg-base-100">
@@ -90,9 +90,9 @@ const Header = () => {
     {/* navbar end */}
 
     {/* banner start */}
-    <div className="bg-none md:bg-[url('./public/assets/images/banner.jpg')] bg-cover p-10 lg:p-36 bg-no-repeat rounded-2xl">
+    <div className="bg-none md:bg-[url('./public/assets/images/banner.jpg')] bg-cover p-10 lg:p-36 bg-no-repeat rounded-2xl mt-6">
     <div className="text-black md:text-white text-center">
-    <h1 className="text-3xl md:text-5xl lg:text-6xl w-full md:w-9/12 mx-auto">Discover an exceptional cooking class tailored for you!</h1>
+    <h1 className="text-3xl md:text-5xl lg:text-6xl w-full md:w-10/12 mx-auto">Discover an exceptional cooking class tailored for you!</h1>
     <p className="w-full md:w-9/12 mx-auto text-xl text-gray-800 md:text-gray-200 mt-6 mb-10">Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
     <div className="space-x-2 space-y-3 md:space-x-8">
       <button className="btn bg-green-400 border-none text-xl rounded-full py-2 px-6">Explore Now</button>
