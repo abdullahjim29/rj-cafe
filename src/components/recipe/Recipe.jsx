@@ -1,4 +1,4 @@
-const Recipe = ({ recipe }) => {
+const Recipe = ({ recipe, handleWantToCook }) => {
   const {
     recipe_image,
     recipe_id,
@@ -40,7 +40,7 @@ const Recipe = ({ recipe }) => {
             </div>
           </div>
           <div className="card-actions mt-4">
-            <button className="btn bg-green-400 text-lg font-medium rounded-full px-8">Buy Now</button>
+            <button onClick={() => handleWantToCook(recipe)} className="btn bg-green-400 text-lg font-medium rounded-full px-8">Want To Cook</button>
           </div>
         </div>
       </div>
