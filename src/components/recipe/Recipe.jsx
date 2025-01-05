@@ -1,7 +1,6 @@
 const Recipe = ({ recipe, handleWantToCook }) => {
   const {
     recipe_image,
-    recipe_id,
     recipe_name,
     short_description,
     ingredients,
@@ -40,7 +39,7 @@ const Recipe = ({ recipe, handleWantToCook }) => {
             </div>
           </div>
           <div className="card-actions mt-4">
-            <button onClick={() => handleWantToCook(recipe)} className="btn bg-green-400 text-lg font-medium rounded-full px-8">Want To Cook</button>
+            <button onClick={() => handleWantToCook(recipe, recipe.recipe_id)} className="btn bg-green-400 text-lg font-medium rounded-full px-8">Want To Cook</button>
           </div>
         </div>
       </div>
