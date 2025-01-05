@@ -1,6 +1,7 @@
 const Header = () => {
   return (
     <div className="w-11/12 mx-auto">
+      {/* navbar start */}
       <nav>
         <div className="navbar bg-base-100">
           <div className="navbar-start">
@@ -43,7 +44,7 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <a href="#" className="text-4xl font-medium">RJ-Cafe</a>
+            <a href="#" className="text-2xl md:text-4xl font-medium">RJ-Cafe</a>
           </div>
 
           <div className="navbar-center hidden lg:flex">
@@ -64,7 +65,7 @@ const Header = () => {
           </div>
           <div className="navbar-end">
             <div className="flex items-center gap-3">
-            <label className="input input-bordered flex items-center gap-2 rounded-full">
+            <label className=" border-2 p-2 flex items-center gap-2 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
@@ -79,13 +80,27 @@ const Header = () => {
               </svg>
               <input type="text" className="grow" placeholder="Search" />
             </label>
-            <div className="bg-green-400 py-2 px-3 rounded-full">
+            <div className="bg-green-400 py-2 px-3 rounded-full hidden md:block">
             <i class="fa-solid fa-user"></i>
             </div>
             </div>
           </div>
         </div>
       </nav>
+    {/* navbar end */}
+
+    {/* banner start */}
+    <div className="bg-none md:bg-[url('./public/assets/images/banner.jpg')] bg-cover p-10 lg:p-36 bg-no-repeat rounded-2xl">
+    <div className="text-black md:text-white text-center">
+    <h1 className="text-3xl md:text-5xl lg:text-6xl w-full md:w-9/12 mx-auto">Discover an exceptional cooking class tailored for you!</h1>
+    <p className="w-full md:w-9/12 mx-auto text-xl text-gray-800 md:text-gray-200 mt-6 mb-10">Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
+    <div className="space-x-2 space-y-3 md:space-x-8">
+      <button className="btn bg-green-400 border-none text-xl rounded-full py-2 px-6">Explore Now</button>
+      <button className="border border-black md:border-white py-2 px-6 rounded-full text-xl">Our Feedback</button>
+    </div>
+    </div>
+    </div>
+    {/* banner end */}
     </div>
   );
 };
