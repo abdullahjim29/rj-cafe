@@ -10,7 +10,7 @@ function App() {
       {/* our recipe */}
       <OurRecipe></OurRecipe>
       {/* resipe cards and sidebar */}
-      <div className='w-11/12 mx-auto flex gap-4'>
+      <div className='w-11/12 mx-auto flex flex-col md:flex-row gap-4'>
         {/* recipe cards */}
         <Recipes></Recipes>
         {/* sidebar */}

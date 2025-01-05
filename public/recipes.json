@@ -1,6 +1,6 @@
 [
     {
-      "recipe_image": "https://i.ibb.co/8gZCYg8/Chicken-Parmesan.jpg",
+      "recipe_image": "https://i.ibb.co/HgHv9qS/DSC-3665-1-960x639.webp",
       "recipe_id": 101,
       "recipe_name": "Chicken Parmesan",
       "short_description": "Crispy chicken breast topped with marinara sauce and melted cheese.",
@@ -22,9 +22,9 @@
       "ingredients": [
         "200 g salmon fillet",
         "150 g asparagus",
-        "30 ml lemon juice",
         "20 g butter",
-        "Salt and pepper"
+        "Salt and pepper",
+        "100 g mozzarella cheese"
       ],
       "preparing_time": 25,
       "calories": 450
